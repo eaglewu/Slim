@@ -1,0 +1,2 @@
+slim.lo: /Users/eagle/SourceCode/php-5.5.23/ext/slim/slim.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/eagle/SourceCode/php-5.5.23/ext/slim $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/eagle/SourceCode/php-5.5.23/ext/slim/slim.c -o slim.lo 
